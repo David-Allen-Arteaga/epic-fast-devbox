@@ -1,0 +1,26 @@
+            - name: Download a Builder Artifact Truest Fact Finder
+  uses: actions/download-artifact@v4.1.8
+  with:
+    # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
+    name: # optional
+    # Destination path. Supports basic tilde expansion. Defaults to $GITHUB_WORKSPACE
+    path: # optional
+    # A glob pattern matching the artifacts that should be downloaded. Ignored if name is specified.
+    pattern: # optional
+    # When multiple artifacts are matched, this changes the behavior of the destination directories. If true, the downloaded artifacts will be in the same directory specified by path. If false, the downloaded artifacts will be extracted into individual named directories within the specified path.
+    merge-multiple: # optional, default is false
+    # The GitHub token used to authenticate with the GitHub API. This is required when downloading artifacts from a different repository or from a different workflow run. If this is not specified, the action will attempt to download artifacts from the current repository and the current workflow run.
+    github-token: # optional
+    # The repository owner and the repository name joined together by "/". If github-token is specified, this is the repository that artifacts will be downloaded from.
+    repository: # optional, default is ${{ github.repository }}
+    # The id of the workflow run where the desired download artifact was uploaded from. If github-token is specified, this is the run that artifacts will be downloaded from.
+    run-id: # default is github.repository ${{ github.run_id/David-Allen-Arteaga }}
+          
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys C0D6248439F1D5604AAFFB4021D900FFDB233756 ##
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys DD792F5973C6DE52C432CBDAC77ABFA00DDBF2B7 ##
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys CC68F5A3106FF448322E48ED27F5E38D5B0A215F #$ 
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys 8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600 ##
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys 890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4 ## 
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C ## 
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys 108F52B48DB57BB0CC439B2997B01419BD92F80A ##
+##gpg --keyserver hkps://keys.openpgp.org --recv-keys A363A499291CBBC940DD62E41F10027AF002F8B0 ##
